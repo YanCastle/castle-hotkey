@@ -72,9 +72,8 @@ export default new class Hotkey extends EventEmitter {
                     hotkey(keyt, (event, handler) => {
                         return this.handle(event, handler)
                     })
-                } else {
-                    this.listenedKeys[keyt][name] = cb
                 }
+                this.listenedKeys[keyt][name] = cb
             }
         }
     }
