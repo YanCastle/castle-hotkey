@@ -1,0 +1,30 @@
+{
+  "name": "castle-hotkey",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*.js",
+    "dist/**/*.d.ts",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YanCastle/castle-hotkey.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YanCastle/castle-hotkey/issues"
+  },
+  "homepage": "https://github.com/YanCastle/castle-hotkey#readme",
+  "dependencies": {
+    "eventemitter3": "^3.1.0",
+    "hotkeys-js": "^3.3.8"
+  }
+}
