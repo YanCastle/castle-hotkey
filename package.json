@@ -1,6 +1,6 @@
 {
-  "name": "castle-hotkey",
-  "version": "1.0.3",
+  "name": "@ctsy/hotkey",
+  "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
