@@ -1,6 +1,6 @@
 {
   "name": "castle-hotkey",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/YanCastle/castle-hotkey#readme",
   "dependencies": {
+    "@ctsy/hook": "^0.0.4",
     "eventemitter3": "^3.1.0",
     "hotkeys-js": "^3.3.8"
   }
